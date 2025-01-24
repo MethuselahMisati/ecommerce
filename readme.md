@@ -1,7 +1,62 @@
-## PROJECT MART - College Project Service
 
-Text now to get college project installed
+How to import and run the project?
+You can do it simply by running the following script into your Package Manager Console
 
-[![Whatsapp Contact](https://www.projectmart.in/_next/static/media/Logo.99b856f5.svg)](https://api.whatsapp.com/send?phone=917676409450&text=Could%20you%20help%20me%20complete%20my%20college%20project%3F)
 
-Contact us now on **Whatsapp**([Click here](https://api.whatsapp.com/send?phone=917676409450&text=Could%20you%20help%20me%20complete%20my%20college%20project%3F))
+
+Uninstall-Package Microsoft.ApplicationInsights.Web
+
+Uninstall-Package Microsoft.ApplicationInsights.WindowsServer
+
+Uninstall-Package Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel
+
+Uninstall-Package Microsoft.ApplicationInsights.PerfCounterCollector
+
+Uninstall-Package Microsoft.ApplicationInsights.DependencyCollector
+
+Uninstall-Package Microsoft.ApplicationInsights.Agent.Intercept
+
+Uninstall-Package Microsoft.ApplicationInsights
+
+Uninstall-Package Microsoft.AspNet.Web.Optimization
+
+Uninstall-Package bootstrap
+
+Uninstall-Package jQuery
+
+Uninstall-Package WebGrease
+
+Uninstall-Package Antlr
+
+Uninstall-Package Modernizr
+
+
+
+Install-Package Microsoft.Owin.Host.SystemWeb -Version 4.0.0
+
+Install-Package Microsoft.IdentityModel.Protocols.OpenIdConnect -Version 5.2.1
+
+Install-Package Microsoft.IdentityModel.Tokens -Version 5.2.1
+
+Install-Package Microsoft.Owin.Security.Jwt -Version 4.0.0
+
+Install-Package EntityFramework -Version 6.2.0
+
+Install-Package Microsoft.AspNet.WebApi.Cors -Version 5.2.6
+
+Install-Package Microsoft.AspNet.Identity.Owin -Version 2.2.1
+
+
+
+npm install -g @angular/cli
+
+ng new sugar-level-tracker --directory Angular
+
+cd Angular
+
+ng serve
+
+npm install @angular/material @angular/cdk ng-pick-datetime rxjs-compat --save
+
+
+(c) Methuselah Misati
